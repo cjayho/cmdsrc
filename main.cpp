@@ -39,7 +39,6 @@ func con_exit = []()
 {
 	if( cmdsys->is_enabled() )
 	{
-		std::cout << "Exiting enabled mode..." << std::endl;
 		cmdsys->disable();
 	}
 	else
